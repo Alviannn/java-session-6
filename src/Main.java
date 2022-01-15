@@ -24,7 +24,7 @@ public class Main {
                                "2. Tidak");
             System.out.print(">> ");
 
-            int choice = -1;
+            int choice;
             try {
                 choice = scan.nextInt();
                 scan.nextLine();
@@ -33,11 +33,7 @@ public class Main {
                 scan.nextLine();
                 scan.nextLine();
                 continue;
-            } finally {
-                System.out.println("finally world");
             }
-
-            System.out.println("not finally");
 
 //            // clear buffer
 //            scan.nextLine();
